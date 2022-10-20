@@ -29,7 +29,7 @@ using namespace std;
     }
     
     
-     vector<string> findAllConcatenatedWordsInADict(vector<string>& words) {
+     vector<string> compounded_word(vector<string>& words) {
         sort(words.begin(), words.end(), [](const string& w1, const string& w2) {
             return (w1.size() < w2.size());
         });
@@ -106,7 +106,7 @@ int main(){
 		v.push_back(s);
 	}
 	
-	findAllConcatenatedWordsInADict(v);
+	compounded_word(v);
 	
 
     Finish = clock();
