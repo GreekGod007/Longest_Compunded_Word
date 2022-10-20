@@ -95,8 +95,6 @@ int main(){
     clock_t Finish;
 
     Start = clock();
-//    for(int i = 0; i < 10000000; i++)
-//        ;    
 	
 	
 	string s;
